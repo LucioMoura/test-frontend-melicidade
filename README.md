@@ -7,11 +7,11 @@ Clone o projeto.
 ### Server
 Subir o servidor:
 ```
-yarn start
+yarn start ou npm start
 ```
 
 ### Frontend
 cd client:
 ```
-yarn start
+yarn start ou npm start
 ```
