@@ -1,0 +1,37 @@
+@import '../../../App.scss';
+
+.d-mobi{
+    display: block
+  }
+.d-desk{
+    display: none
+  }
+  
+  @media (min-width: 768px) {
+    .d-mobi{
+      display: none !important
+    }
+    .d-desk{
+      display: block !important
+    }
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 680px
+  }
+
+  .item-condition{
+    font-size: $font14;
+    color: $blackmeli;
+    margin: 0;
+    padding-bottom: $spec16
+  }
+
+  .item-price{
+    font-size: $font46;
+    color: $blackmeli;
+    margin: 0;
+    padding-bottom: $spec32
+  }

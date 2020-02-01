@@ -1,0 +1,21 @@
+@import '../../../App.scss';
+
+.breadcrumb {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+        .breadcrumb-item{
+            font-size: $font14
+        }
+        span{
+            color: $graymeli
+        }
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: ">"
+        }
+        .breadcrumb-item:last-child {
+            font-weight: bold
+        }
+}
+

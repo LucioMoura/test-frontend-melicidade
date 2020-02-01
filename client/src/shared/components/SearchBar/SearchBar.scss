@@ -1,0 +1,42 @@
+@import '../../../App.scss';
+
+nav {
+    background: $yellowmeli;
+    a {
+      cursor: pointer
+    }
+    .lupa {
+        border-top-right-radius: 0.25rem!important;
+        border-bottom-right-radius: 0.25rem!important;
+        margin-left: -1px
+    }
+
+    .logo-search{
+        padding-left: 0.9375rem;
+        padding-top: 0.25rem
+    }
+    .warp-search {
+        display: flex;
+        padding-right: 0.75rem
+      }
+      
+      input[type="text"] {
+        flex: 1;
+        font-size: $font18;
+        padding: 10px;
+        border: 1px solid transparent
+      }
+
+      .warp-search button {
+        padding: 0.625rem 1.25rem;
+        background-color: #eee;
+        border: 1px solid #eee;
+        cursor: pointer;
+        justify-content: center
+      }
+      .padding-10 {
+        padding: 0.625rem
+    }
+}
+
+

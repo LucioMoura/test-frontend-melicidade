@@ -1,0 +1,32 @@
+@import '../../../App.scss';
+
+.item-descriptiom-price{
+    font-size: $font24;
+    text-decoration: none;
+    margin-right: $spec16;
+    color: $blackmeli  
+
+}
+
+.item-description{
+    font-size: $font18;
+    margin: 0;
+    padding-top: 2rem;
+    color: $blackmeli
+}
+.item-location{
+    font-size: $font12;
+}
+.thumb{
+    width: 180px;
+    height: 180px;
+    border-radius: 0.25rem !important;
+}
+
+hr{
+    margin: $font16 0;
+    border: 0;
+    height: 2px;
+    background: #f7f7f7;
+    width: 100%
+}

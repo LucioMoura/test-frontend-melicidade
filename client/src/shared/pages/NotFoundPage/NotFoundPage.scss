@@ -1,0 +1,10 @@
+@import '../../../App.scss';
+
+.not-found {
+    padding: 70px 0;
+    text-align: center;
+    P{
+        font-size: $font18;
+        color: $blackmeli
+    }
+}

@@ -1,0 +1,11 @@
+@import '../../../App.scss';
+
+.loader {
+    padding: 70px 0;
+    text-align: center;
+    p{
+        margin-top: $spec16;
+        font-size: $font16;
+        color: $blackmeli
+    }
+}
